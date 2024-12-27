@@ -1,0 +1,54 @@
+# Node.js dependencies
+/frontend/node_modules
+/frontend/.cache
+
+# Python bytecode and logs
+/backend/__pycache__/
+/backend/*.py[cod]
+*.pyc
+
+# Flask environment
+/backend/instance/
+*.env
+*.flaskenv
+
+# Docker
+*.env
+*.env.*
+*.log
+docker-compose.override.yml
+docker-compose.*.yml
+**/.env
+
+# Build directories
+/frontend/public/build/
+/frontend/dist/
+/frontend/.svelte-kit/
+/frontend/.vite/
+
+# Package managers
+/backend/.venv/
+/backend/.pip-cache/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Design files
+/designs/*.fig~
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Optional lint and debug files
+.eslintcache
+stylelint.config.js
