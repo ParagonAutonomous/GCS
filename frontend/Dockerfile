@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3030
 
-CMD ["sh", "-c", "npm install && npm run dev -- --host"]
+CMD ["sh", "-c", "npm install && npm run vite -- --host"]
