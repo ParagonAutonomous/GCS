@@ -50,7 +50,7 @@ def send_heartbeat(drone, sysid: int, heartbeat_interval: int = 1) -> None:
                 mavutil.mavlink.MAV_AUTOPILOT_ARDUPILOTMEGA,
                 0, 0, mavutil.mavlink.MAV_STATE_ACTIVE
             )
-            # print(f"[DRONE {sysid}] Heartbeat sent")
+            #print(f"[DRONE {sysid}] Heartbeat sent")
             time.sleep(heartbeat_interval)
         except Exception as e:
             print(f"[DRONE {sysid}] Error: {str(e)}")

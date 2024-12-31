@@ -1,3 +1,4 @@
+"""Test listener for heartbeat messages."""
 import time
 from pymavlink import mavutil
 from drone_client.config import GCS_IP, GCS_PORT, RECEIVE_INTERVAL
