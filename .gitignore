@@ -1,14 +1,14 @@
 # Node.js dependencies
-/frontend/node_modules
-/frontend/.cache
+/gcs-ui/node_modules
+/gcs-ui/.cache
 
 # Python bytecode and logs
-/backend/__pycache__/
-/backend/*.py[cod]
+/gcs-core/__pycache__/
+/gcs-core/*.py[cod]
 *.pyc
 
 # Flask environment
-/backend/instance/
+/gcs-core/instance/
 *.env
 *.flaskenv
 
@@ -21,14 +21,14 @@ docker-compose.*.yml
 **/.env
 
 # Build directories
-/frontend/public/build/
-/frontend/dist/
-/frontend/.svelte-kit/
-/frontend/.vite/
+/gcs-ui/public/build/
+/gcs-ui/dist/
+/gcs-ui/.svelte-kit/
+/gcs-ui/.vite/
 
 # Package managers
-/backend/.venv/
-/backend/.pip-cache/
+/gcs-core/.venv/
+/gcs-core/.pip-cache/
 
 # IDE and editor settings
 .vscode/
