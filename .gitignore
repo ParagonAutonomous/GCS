@@ -3,9 +3,8 @@
 /gcs-ui/.cache
 
 # Python bytecode and logs
-/gcs-core/__pycache__/
-/gcs-core/*.py[cod]
-*.pyc
+**/__pycache__/
+**/*.py[cod]
 
 # Flask environment
 /gcs-core/instance/
@@ -52,3 +51,4 @@ Thumbs.db
 # Optional lint and debug files
 .eslintcache
 stylelint.config.js
+
