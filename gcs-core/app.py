@@ -1,10 +1,11 @@
 from flask import Flask, jsonify
+from app import create_app
 
-app = Flask(__name__)
+app = create_app()
 
-@app.route('/api/status/', methods=['GET'])
+@app.route('/status', methods=['GET'])
 def status():
-    return jsonify({'status': 'ok'})
+    return jsonify({"status": "ok"}), 200
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5050, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050, debug=True)

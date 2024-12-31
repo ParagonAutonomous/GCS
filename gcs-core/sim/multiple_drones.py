@@ -1,7 +1,7 @@
 """Multiple MAVLink drone clients."""
 import threading
-from drone_client.simulator import simulate_drone
-from drone_client.config import GCS_IP, GCS_PORT, DEFAULT_DRONES
+from sim.simulator import simulate_drone
+from sim.config import GCS_IP, GCS_PORT, DEFAULT_DRONES
 
 if __name__ == "__main__":
     GCS_ADDRESS = (GCS_IP, GCS_PORT)

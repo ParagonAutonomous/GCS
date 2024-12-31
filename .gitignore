@@ -13,7 +13,6 @@
 
 # Docker
 *.env
-*.env.*
 *.log
 docker-compose.override.yml
 docker-compose.*.yml
@@ -51,4 +50,3 @@ Thumbs.db
 # Optional lint and debug files
 .eslintcache
 stylelint.config.js
-

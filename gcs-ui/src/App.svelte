@@ -1,7 +1,14 @@
 <script lang="ts">
-  import version from './versionStore';
+  import "leaflet/dist/leaflet.css";
+  import "./app.css";
+  import Map from "./Map.svelte";
+  import Footer from "./Footer.svelte";
 </script>
 
-<div>
-  <h1>GCS v{$version}</h1>
+<div class="flex flex-col h-screen">
+  <div class="flex-1 relative">
+    <Map />
+  </div>
+
+  <Footer />
 </div>

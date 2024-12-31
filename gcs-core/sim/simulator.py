@@ -2,7 +2,7 @@
 import threading
 import time
 from pymavlink import mavutil
-from drone_client.config import RECEIVE_INTERVAL
+from sim.config import RECEIVE_INTERVAL
 
 def simulate_drone(sysid: int, compid: int, gcs_address: tuple, heartbeat_interval: int = 1) -> None:
     """Simulate a MAVLink drone client.

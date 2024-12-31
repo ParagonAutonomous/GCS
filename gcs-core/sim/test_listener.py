@@ -1,7 +1,7 @@
 """Test listener for heartbeat messages."""
 import time
 from pymavlink import mavutil
-from drone_client.config import GCS_IP, GCS_PORT, RECEIVE_INTERVAL
+from sim.config import GCS_IP, GCS_PORT, RECEIVE_INTERVAL
 
 def listen_for_hearbeats(gcs_address: tuple) -> None:
     """Listen for heartbeat messages from a drone.

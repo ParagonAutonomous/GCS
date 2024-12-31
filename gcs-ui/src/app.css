@@ -1,5 +1,16 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "flowbite";
+@import "leaflet/dist/leaflet.css";
 
-@import 'flowbite';
+#map {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
