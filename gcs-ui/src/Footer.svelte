@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { writable } from "svelte/store";
-  import version from "./versionStore";
+  import { version } from "./store";
 
   const serverStatus = writable<string>("checking");
   const statusColor = writable<string>("bg-gray-400");

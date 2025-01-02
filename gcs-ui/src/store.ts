@@ -1,6 +1,7 @@
 import { writable } from "svelte/store";
 
 const version = writable<string>("");
+const currentPage = writable<string>("Dashboard");
 
 fetch("/package.json")
   .then((response) => response.json())
@@ -8,4 +9,4 @@ fetch("/package.json")
     version.set(data.version);
   });
 
-export default version;
+export { version, currentPage };
